@@ -33,6 +33,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    private static final String TAG = "MainActivity";
 
+    private static final String TAG = "MainActivity";
+    private List<Track> mListItems;
+    private SCTrackAdapter mAdapter;
+
+    private void loadTracks(List<Track> tracks) {
+        mListItems.clear();
+        mListItems.addAll(tracks);
+        mAdapter.notifyDataSetChanged();
+
+    }
 }
