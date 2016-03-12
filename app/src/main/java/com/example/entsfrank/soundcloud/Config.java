@@ -5,6 +5,6 @@ package com.example.entsfrank.soundcloud;
  */
 public class Config {
 
-    public static final String CLIENT_ID = "YOUR_CLIENT_ID";
+    public static final String CLIENT_ID = "90e97eeee996fb1d5e6551ced37a1a6d";
     public static final String API_URL = "https://api.soundcloud.com";
 }
