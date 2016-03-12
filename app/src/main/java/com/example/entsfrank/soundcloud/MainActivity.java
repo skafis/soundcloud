@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import retrofit.Callback;
@@ -13,8 +14,6 @@ import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "MainActivity";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,4 +33,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    private static final String TAG = "MainActivity";
+
 }
